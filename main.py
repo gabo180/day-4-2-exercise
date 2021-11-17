@@ -4,6 +4,12 @@ names = names_string.split(", ")
 # 🚨 Don't change the code above 👆
 
 #Write your code below this line 👇
+import random
+
+select_name = random.randint(0, (len(names) - 1))
+name_selected = names[select_name]
+
+print(f"{name_selected} is going to buy the meal today!")
 
 
 
